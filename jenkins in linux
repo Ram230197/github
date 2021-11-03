@@ -1,0 +1,32 @@
+    1  yum update
+    2  yum install update
+    3  yum install java-1.8*
+    4  java -version
+    5  find -name java
+    6  cd /
+    7  ls
+    8  cd usr
+    9  ls
+   10  cd lib
+   11  ls
+   12  ls jvm
+   13  cd jvm
+   14  ls
+   15  pwd
+   16  cd /
+   17  java -version
+   18  find /usr/lib/jvm/java-1.8* | head -n 3
+   19  vi /etc/profile.d/jdk.sh
+   20  source /etc/profile.d/jdk.sh
+   21  echo $JAVA_HOME
+   22  wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+   23  rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+   24  yum upgrade
+   25  yum install jenkins
+   26  amazon-linux-extras install epel
+   27  yum install epel-release
+   28  yum install jenkins
+   29  service jenkins start
+   30  service jenkins status
+   31  cat /var/lib/jenkins/secrets/initialAdminPassword
+   32  history
