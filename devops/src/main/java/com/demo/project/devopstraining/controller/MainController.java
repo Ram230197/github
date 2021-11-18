@@ -8,7 +8,7 @@ public class MainController {
 	
 	@GetMapping("/")
 	public String getmessage() {
-		return "Hi, Welcome to Devops Training 3rd check!!!";
+		return "Hi, Welcome to Devops Training 4th check!!!";
 	}
 
 }
